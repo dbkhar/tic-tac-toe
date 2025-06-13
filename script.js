@@ -42,7 +42,7 @@ Array.from(boxes).forEach(element =>{
             audioTurn.play();
             checkWin();
             if (!isgameover){
-                document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
+             document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
             } 
         }
     })
