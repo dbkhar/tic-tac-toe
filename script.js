@@ -84,5 +84,4 @@ reset.addEventListener('click', () => {
     // Reset all image widths
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px";
     document.querySelector('.imgbox2').getElementsByTagName('img')[0].style.width = "0px";
-    document.querySelector('.imgboxCelebrate').getElementsByTagName('img')[0].style.width = "0px";
 });
